@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP Starter Plugin
  * Plugin URI:        https://www.slushman.com/wp-starter-plugin
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       This is a starter plugin used for creating other plugins.
  * Version:           1.0.0
  * Author:            Slushman
  * Author URI:        https://www.slushman.com
