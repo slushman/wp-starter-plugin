@@ -6,11 +6,11 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       https://www.slushman.com
- * @since      1.0.0
+ * @link 			https://www.slushman.com
+ * @since 			1.0.0
  *
- * @package    Wp_Starter_Plugin
- * @subpackage Wp_Starter_Plugin/includes
+ * @package 		Wp_Starter_Plugin
+ * @subpackage 		Wp_Starter_Plugin/includes
  */
 
 /**
@@ -19,18 +19,17 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @since      1.0.0
- * @package    Wp_Starter_Plugin
- * @subpackage Wp_Starter_Plugin/includes
- * @author     Slushman <chris@slushman.com>
+ * @since 			1.0.0
+ * @package 		Wp_Starter_Plugin
+ * @subpackage 		Wp_Starter_Plugin/includes
+ * @author 			Slushman <chris@slushman.com>
  */
 class Wp_Starter_Plugin_i18n {
-
 
 	/**
 	 * Load the plugin text domain for translation.
 	 *
-	 * @since    1.0.0
+	 * @since 		1.0.0
 	 */
 	public function load_plugin_textdomain() {
 
@@ -40,8 +39,6 @@ class Wp_Starter_Plugin_i18n {
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);
 
-	}
+	} // load_plugin_textdomain()
 
-
-
-}
+} // class

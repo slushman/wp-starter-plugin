@@ -8,21 +8,21 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://www.slushman.com
- * @since             1.0.0
- * @package           Wp_Starter_Plugin
+ * @link 				https://www.slushman.com
+ * @since 				1.0.0
+ * @package 			Wp_Starter_Plugin
  *
  * @wordpress-plugin
- * Plugin Name:       WP Starter Plugin
- * Plugin URI:        https://www.slushman.com/wp-starter-plugin
- * Description:       This is a starter plugin used for creating other plugins.
- * Version:           1.0.0
- * Author:            Slushman
- * Author URI:        https://www.slushman.com
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       wp-starter-plugin
- * Domain Path:       /languages
+ * Plugin Name: 		WP Starter Plugin
+ * Plugin URI: 			https://www.slushman.com/wp-starter-plugin
+ * Description: 		This is a starter plugin used for creating other plugins.
+ * Version: 			1.0.0
+ * Author: 				Slushman
+ * Author URI: 			https://www.slushman.com
+ * License: 			GPL-2.0+
+ * License URI: 		http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain: 		wp-starter-plugin
+ * Domain Path: 		/languages
  */
 
 // If this file is called directly, abort.
@@ -64,7 +64,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-wp-starter-plugin.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.0
+ * @since 		1.0.0
  */
 function run_wp_starter_plugin() {
 
